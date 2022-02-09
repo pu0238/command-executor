@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Post } from '@nestjs/common';
 import { Execute } from './dto/app.execute';
 import { ExecuterService } from './executer.service';
 import { ExecuterResponse } from './interfaces/executer.response';
